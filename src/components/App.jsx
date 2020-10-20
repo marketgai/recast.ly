@@ -1,6 +1,6 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom';
-import exampleVideoData from './data/exampleVideoData.js';
+import exampleVideoData from '../data/exampleVideoData.js';
 import Search from './search.js';
 import VideoList from './VideoList.js';
 import VideoListEntry from './VideoListEntry.js';
@@ -28,7 +28,6 @@ var App = () => (
         <div>
           <h5>
             <VideoList videos={exampleVideoData} />
-            <em>videoList</em> view goes here
           </h5>
         </div>
       </div>
