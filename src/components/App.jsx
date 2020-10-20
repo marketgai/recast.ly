@@ -18,9 +18,10 @@ class App extends React.Component {
 
   //methods
   onVideoClick() {
-    this.setState({
-      videoPlaying: exampleVideoData[0]
-    });
+    this.state.videoPlaying = test;
+    // this.setState({
+    //   videoPlaying: exampleVideoData[0]
+    // });
   }
 
   render() {
@@ -47,7 +48,7 @@ class App extends React.Component {
           <div className="col-md-5">
             <div>
               <h5>
-                <VideoList videos={exampleVideoData} />
+                <VideoList videos={exampleVideoData} select={this.onVideoClick} myprop={'hobbes'}/>
               </h5>
             </div>
           </div>
