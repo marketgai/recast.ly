@@ -33,8 +33,8 @@ var exampleVideoData = [{
     channelTitle: 'thenewboston',
     liveBroadcastContent: 'none'
   }
-}
-, {
+},
+{
   kind: 'youtube#searchResult',
   etag: 'abQHWywil_AkNqdqji7_FqiK-u4/tS3xe6KXEJbntCAmn01SmEuSYxg',
   id: {
