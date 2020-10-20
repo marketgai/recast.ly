@@ -3,11 +3,6 @@ var VideoList = (props) => (
     {console.log(props)}
     <div>
       <VideoListEntry video={props.videos[0]} />
-      {/* <h5>
-        <em>videoListEntry</em> view goes here
-      </h5>
-    </div>
-    <div>
       <h5>
         <em>videoListEntry</em> view goes here
       </h5>
@@ -25,7 +20,12 @@ var VideoList = (props) => (
     <div>
       <h5>
         <em>videoListEntry</em> view goes here
-      </h5> */}
+      </h5>
+    </div>
+    <div>
+      <h5>
+        <em>videoListEntry</em> view goes here
+      </h5>
     </div>
   </div>
 );
@@ -33,7 +33,7 @@ var VideoList = (props) => (
 // PropTypes tell other developers what `props` a component expects
 // Warnings will be shown in the console when the defined rules are violated
 VideoList.propTypes = {
-  videos : PropTypes.array.isRequired
+  videos: PropTypes.array.isRequired
 };
 
 // In the ES6 spec, files are "modules" and do not share a top-level scope.
